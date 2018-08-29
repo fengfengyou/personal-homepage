@@ -1,0 +1,285 @@
+@charset "UTF-8";
+.acc-page {
+  position: relative;
+  padding: 42px 0;
+  margin: 0 60px;
+}
+
+.acc-page .acc-page-title {
+  padding: 0 4px;
+  font-weight: 700;
+  line-height: 36px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.acc-page .acc-page-link {
+  font-weight: 400;
+  font-size: 12px;
+  color: #4f87ff;
+}
+
+.acc-page .tab-nav {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.acc-page .tab-nav.sm li {
+  padding: 10px 0;
+}
+
+.acc-page .tab-nav li.active {
+  border-bottom: 2px solid #f70;
+  margin-bottom: -1px;
+}
+
+.acc-page .tab-nav > li {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.acc-page .tab-nav.sm li a {
+  font-size: 14px;
+  border-right-width: 1px;
+}
+
+.acc-page .tab-nav li.active a {
+  color: #f60;
+}
+
+.acc-page .tab-nav li a {
+  padding: 0 30px;
+  border-right: 1px solid #ccc;
+  font-size: 16px;
+  color: #888;
+}
+
+.acc-page .tab-nav li:last-child a {
+  border-right: 0;
+}
+
+.acc-page .acc-recharge {
+  position: relative;
+  padding: 8px 0 0;
+}
+
+.acc-page .acc-withform-item {
+  margin: 0 0 24px;
+}
+
+.acc-page .acc-withform-lab {
+  width: auto;
+  margin: 0;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  line-height: 36px;
+}
+
+.acc-page .acc-withform-group label {
+  margin-right: 8px;
+}
+
+.acc-page .get-bank-card img {
+  display: inline-block;
+}
+
+.acc-page .get-bank-card u {
+  margin-left: 8px;
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.acc-page .acc-withform-lab em {
+  position: relative;
+  font-size: 22px;
+  color: #F60;
+  font-weight: 400;
+}
+
+.acc-page .acc-withform-lab em::after {
+  content: "元";
+  font-size: 22px;
+  color: #F60;
+}
+
+.acc-page .acc-withform-bmsg, .acc-page .acc-withform-msg {
+  color: red;
+  font-size: 12px;
+}
+
+.acc-page .acc-withform-lab b {
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+.acc-page .withdrawal-limit {
+  line-height: 36px;
+  color: #f89b56;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.acc-page .acc-withform-earn {
+  display: none;
+  margin: 5px 0;
+  color: #f79a57;
+}
+
+.acc-page .acc-withform-val {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 24px;
+}
+
+.acc-page .acc-withform-group label {
+  margin-right: 8px;
+}
+
+.acc-page .acc-withform-group label input {
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.acc-page .acc-withform-btn {
+  margin: 0 0 20px 200px;
+}
+
+.acc-page .acc-rec-sbt {
+  padding: 10px 84px;
+}
+
+.acc-page .acc-rec-info {
+  padding: 12px;
+  line-height: 2em;
+  border: 1px solid #d9d9d9;
+  background: #fdefed;
+}
+
+.acc-page .no-mar {
+  margin: 0 !important;
+}
+
+.acc-page .cred {
+  color: red;
+}
+
+.acc-page .acc-large-amount {
+  display: none;
+}
+
+.acc-page .acc-search {
+  padding: 0 0 20px;
+  margin: 24px 0;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.acc-page input.acc-search-ipt {
+  width: 120px;
+  padding: 4px;
+  margin: 0 12px 0 0;
+  vertical-align: middle;
+}
+
+.acc-page input.acc-search-ipt::placeholder {
+  color: rgba(51, 51, 51, 0.4);
+  font-size: 14px;
+}
+
+.acc-page input.ipt-datepicker {
+  margin: 0;
+  background: url(/public/img/common/ico-date.png) 102px center no-repeat;
+}
+
+.acc-page input.acc-search-ipt {
+  width: 120px;
+  padding: 3px 4px;
+  margin: 0 12px 0 0;
+  vertical-align: middle;
+}
+
+.acc-page .acc-search-spt {
+  color: #b3b3b3;
+}
+
+.acc-page input.ipt-datepicker {
+  margin: 0;
+  background: url(/public/img/common/ico-date.png) 102px center no-repeat;
+}
+
+.acc-page select.acc-search-sel {
+  width: 120px;
+  padding: 2px 4px;
+  margin: 0 12px 0 0;
+  vertical-align: middle;
+}
+
+.acc-page .acc-search-btn {
+  margin: 0 0 0 12px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.acc-page .acc-dwonload-btn {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.acc-page .acc-table {
+  padding-right: 4px;
+  padding-left: 4px;
+  font-size: 12px;
+}
+
+.acc-page .acclist-empty span {
+  display: inline-block;
+  padding: 15px 10px;
+  margin: 50px 0;
+  zoom: 1;
+  font-size: 18px;
+  line-height: 1.6em;
+  text-align: center;
+  color: #ccc;
+  border: 1px solid #ccc;
+}
+
+.acc-page .acc-table tr td {
+  position: relative;
+  z-index: 0;
+}
+
+.acc-page .acclist-empty {
+  text-align: center;
+}
+
+.acc-page .acc-rec-details {
+  margin: 0 0 36px;
+  line-height: 16px;
+}
+
+.acc-page .acc-rec-details li {
+  float: left;
+  width: 165px;
+  padding: 0 0 0 5px;
+  border-left: 2px solid #fe9d50;
+  color: #999;
+}
+
+.acc-page .acc-rec-details li span {
+  display: inline-block;
+  margin: 8px 0 0;
+  font-weight: 700;
+  color: #f60;
+}
+
+.acc-page .acc-score-header {
+  padding: 24px 0 0;
+}
+
+.acc-page .allChecked::after {
+  content: "全选";
+  display: inline-block;
+  width: 30px;
+  transform: translate(60%, -20%);
+}
